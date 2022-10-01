@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*header*/
+
+nav {
+    width: 1055px;
+    display: flex;
+    position: absolute;
+    background-color: #F1F3FF;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    padding-left: 136px;
+    padding-right: 249px;
+}
+
+nav .logo {
+    background-color: #0D28A6;
+    color: aliceblue;
+    width: 100px;
+    height: 34px;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    color: black;
+    background-color: #F1F3FF;
+    width: 40%;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: #F1F3FF;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header-content {
+    width: 1440px;
+    height: 500px;
+    background-color: #F1F3FF;
+}
+
+h2 {
+    position: absolute;
+    width: 568px;
+    height: 108px;
+    padding-top: 177px;
+    padding-left: 136px;
+    font-size: 36px;
+    line-height: 150%;
+}
+
+h4 {
+    position: absolute;
+    width: 468px;
+    height: 60px;
+    padding-left: 136px;
+    padding-top: 301px;
+
+    font-family: 'arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.box1 {
+    position: absolute;
+    width: 704px;
+    height: 243px;
+    margin-left: 736px;
+    margin-top: 261px;
+    background-color: #0D28A6;
+    border-radius: 60px 0px 0px 0px;
+}
+
+.imgcar {
+    position: absolute;
+    width: 704px;
+    height: 407px;
+    margin-left: 736px;
+    margin-top: 97px;
+}
+
+.box2 {
+    position: absolute;
+    width: 140px;
+    height: 36px;
+    margin-top: 377px;
+    margin-left: 136px;
+    background-color: #5CB85F;
+    border-radius: 2px;
+    border-color: #5CB85F;
+    list-style: none;
+}
+
+.box2 li {
+    padding: 8px 12px 8px 12px;
+}
+
+.box2 li a {
+    width: 116px;
+    height: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    color: aliceblue;
+    text-decoration: #5CB85F;
+}
+
+.ourservices-content {
+    width: 1027px;
+    height: 428px;
+    margin: 104px 207px 2194px 206px;
+}
+
+.ourservices-content .eclipse-green {
+    position: absolute;
+    background-color: #92D094;
+    width: 133px;
+    height: 133px;
+    border-radius: 50%;
+    margin-top: 1px;
+}
+
+.ourservices-content .eclipse-blue {
+    position: absolute;
+    background-color: #0D28A6;
+    width: 360px;
+    height: 360px;
+    margin-left: 99px;
+    margin-top: 68px;
+    border-radius: 50%;
+}
+
+.ourservices-content .eclipse-red {
+    position: absolute;
+    background-color: #FA2C5A;
+    width: 25px;
+    height: 25px;
+    margin-left: 383px;
+    margin-top: 43px;
+    border-radius: 50%;
+}
+
+.ourservices-content .eclipse-yellow {
+    position: absolute;
+    background-color: #F9CC00;
+    width: 48px;
+    height: 48px;
+    margin-left: 60px;
+    margin-top: 336px;
+    border-radius: 50%;
+}
+
+.ourservices-content img1 {
+    position: absolute;
+    width: 374px;
+    height: 366px;
+    margin-left: 99px;
+}
+
+.ourservices-content img2 {
+    position: absolute;
+    width: 374px;
+    height: 562px;
+    margin-left: 99px;
+    margin-top: 68px;
+}
+
+.desc-content {
+    position: absolute;
+    width: 468px;
+    height: 376px;
+    margin-left: 559px;
+    margin-top: 36px;
+}
+
+.desc-content h1 {
+    width: 468px;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    font-style: normal;
+}
+
+.desc-content p {
+    width: 468px;
+    height: 80px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 24px;
+    line-height: 20px;
+}
+
+.desc-content ul {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 309px;
+    height: 184px;
+    font-size: 14px;
+    font-weight: 700;
+    list-style-image: -moz-element(\2714);
+}
+
+.desc-content ul li {
+    margin-top: 16px;
+    flex-direction: row;
+    align-items: center;
+    width: 309px;
+    height: 24px;
+    margin-left: 40px;
+    list-style-image: url(../image/checklist.png);
+    line-height: 0;
+}
+
+.list-absolute {
+    position: absolute;
+    top: 28px
+}
